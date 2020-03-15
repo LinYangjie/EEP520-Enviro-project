@@ -11,3 +11,7 @@ This will start a bash promt from which you can build new projects and run the e
 Procedures
 ===
 
+First, you will need to clone my files, do
+```bash
+git clone 
+```
