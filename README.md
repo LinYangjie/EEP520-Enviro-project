@@ -11,7 +11,7 @@ This will start a bash promt from which you can build new projects and run the e
 Procedures
 ===
 
-First, you will need to clone my files, do
+First, you will need to download my files, do
 ```bash
 git clone https://github.com/LinYangjie/EEP520-Enviro-project.git
 ```
