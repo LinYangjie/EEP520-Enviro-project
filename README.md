@@ -1,13 +1,5 @@
 EEP520-Enviro-project: Protect UW STATUE 
 ===
-Dockerhub Images
-===
-To start the docker image environment, do
-```bash
-docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.6 bash
-```
-This will start a bash prompt from which you can build new projects and run the enviro server.
-
 Procedures
 ===
 
@@ -16,5 +8,18 @@ First, you will need to download my files, do
 git clone https://github.com/LinYangjie/EEP520-Enviro-project.git
 ```
 
-Game Rules
+Then, start the docker image environment, do
+```bash
+docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.6 bash
+esm start
+
+```
+This will start a bash prompt from which you can work my project and run the enviro server.
+The command `esm start` uses the <u>e</u>nviro <u>s</u>etup <u>m</u>anager to start a web server from which your browser can access the ENVRIO client. 
+
+Project Goal
+===
+The project goal is to guard the UW Statue prevent it from 
+
+Game Instruction
 ===
