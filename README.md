@@ -15,3 +15,6 @@ First, you will need to download my files, do
 ```bash
 git clone https://github.com/LinYangjie/EEP520-Enviro-project.git
 ```
+
+Game Rules
+===
