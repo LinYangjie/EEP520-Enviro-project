@@ -13,5 +13,5 @@ Procedures
 
 First, you will need to clone my files, do
 ```bash
-git clone 
+git clone https://github.com/LinYangjie/EEP520-Enviro-project.git
 ```
