@@ -19,7 +19,7 @@ The command `esm start` uses the <u>e</u>nviro <u>s</u>etup <u>m</u>anager to st
 
 Project Goal
 ===
-The project goal is to guard the UW Statue prevent it from 
+The project goal is to guard the UW Statue prevent it from attacking by other agents. 
 
-Game Instruction
+Game Description and Instruction
 ===
