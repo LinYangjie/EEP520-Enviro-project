@@ -53,9 +53,9 @@ You can press Ctrl-C to stop the enviro server.
 
 Key Challenges
 ===
-There are not too many challenges in my project. Most of it is depends on how I deal with it, the project is similar to Professor Kalvins' `examples\virus` file.(see https://github.com/klavinslab/enviro)
+There are not too many challenges in my project. Most of it is depends on how I deal with it, the project is similar to Professor Kalvins' `examples/virus` file.(see https://github.com/klavinslab/enviro/examples/virus)
 >
-But there are two points I have deal with
+But there are two points I have to deal with
 - ***Missile Explosion :*** I use the function "add_agent" after amount of time when missile was lanuched, once it explode, the fragment wil go randomly and when it hit on the target, it will reduce the hp of target.  
 - ***Button click :*** In order to let user having time before start the game. I add a boolean variable to determine if player and other agents can move. Once the button been clicked, the game will start to run.
 
