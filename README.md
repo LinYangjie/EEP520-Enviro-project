@@ -11,7 +11,7 @@ Game Description and Instructions
 ===
 
 The agent you will control is a "pink" one. Click the button "Start" at the right top of the webpage when you ready.
-Press "1" to select `Bullet`, Press "2" to select `Missile`. Using `A`,`S`,`W`,`D` to control agent and space to fire. 
+Press `1` to select "Bullet", Press `2` to select "Missile". Using `A`,`S`,`W`,`D` to control agent and `space` to fire. 
 >
 - `Bullet` is a normal weapon, and `Missile` will explode after certain time, itself's can't do damage to the target.
 - if your agent bump into those targets you will return to the place where you start.
