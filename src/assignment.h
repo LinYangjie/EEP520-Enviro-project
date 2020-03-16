@@ -3,6 +3,10 @@
 
 #include "enviro.h"
 
+/*
+assignemtController is to control the boat-like agent to move toward the statue, and reduce hp when hit by bullet or missile.
+*/
+
 using namespace enviro;
 
 class assignmentController : public Process, public AgentInterface {

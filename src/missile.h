@@ -5,6 +5,10 @@
 
 using namespace enviro;
 
+/*
+missileController is to control missile to shot by the player, and explode after a while, which turn into fragments. 
+*/
+
 class missleController : public Process, public AgentInterface {
 
     public:

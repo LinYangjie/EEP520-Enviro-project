@@ -5,6 +5,10 @@
 
 using namespace enviro;
 
+/*
+playerController is to control the agent by keyboard including moving agent and having shooting different weapons.  
+*/
+
 class playerController : public Process, public AgentInterface {
 
     public:
@@ -68,13 +72,13 @@ class playerController : public Process, public AgentInterface {
                 }
             }   
         });
-        notice_collisions_with("Assignment", [&](Event &e) {
+        notice_collisions_with("Assignment", [&](Event &e) {  //check if hit by assignment, return to the start point
             teleport(-700, -200, 0);
         });
-        notice_collisions_with("Virus", [&](Event &e) {
+        notice_collisions_with("Virus", [&](Event &e) { //check if hit by virus, return to the start point
             teleport(-700, -200, 0);
         });
-        notice_collisions_with("Final_Project", [&](Event &e) {
+        notice_collisions_with("Final_Project", [&](Event &e) { //check if hit by final_project, return to the start point
             teleport(-700, -200, 0);
         });
     }

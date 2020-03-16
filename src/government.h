@@ -3,6 +3,10 @@
 
 #include "enviro.h"
 
+/*
+governmentController is to control the governemt agent watch on when the event happen and react once it happen.
+*/
+
 using namespace enviro;
 
 class governmentController : public Process, public AgentInterface {

@@ -5,6 +5,11 @@
 
 using namespace enviro;
 
+/*
+governmentController is a static agent watching sensor, once the sensor touched by agent or below certain value, it emits the event. 
+*/
+
+
 class WHOController : public Process, public AgentInterface {
 
     public:

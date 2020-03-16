@@ -3,6 +3,10 @@
 
 #include "enviro.h"
 
+/*
+fragmentController is to control the fragment to randomly goint toward everywhere and  then disappear after a while.
+*/
+
 using namespace enviro;
 
 class fragmentController : public Process, public AgentInterface {

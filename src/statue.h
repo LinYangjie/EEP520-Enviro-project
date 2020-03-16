@@ -2,6 +2,9 @@
 #define __STATUE_AGENT__H 
 
 #include "enviro.h"
+/*
+StatueController is checking if it is hit by "Final_Project", "Assignment", "Virus", if it does, statue agent will disappear. 
+*/
 
 using namespace enviro;
 

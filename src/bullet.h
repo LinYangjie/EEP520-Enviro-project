@@ -3,6 +3,10 @@
 
 #include "enviro.h"
 
+/*
+bulletController is to control bullet to disappear after a while.
+*/
+
 using namespace enviro;
 
 class bulletController : public Process, public AgentInterface {

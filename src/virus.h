@@ -5,6 +5,10 @@
 
 using namespace enviro;
 
+/*
+VirusController is to control virus to move toward the statue, and reduce hp when hit by bullet or missile.
+*/
+
 class virusController : public Process, public AgentInterface {
 
     public:

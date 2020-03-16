@@ -2,6 +2,9 @@
 #define __FINAL_PROJECT_AGENT__H 
 
 #include "enviro.h"
+/*
+final_projectController is to control the biggest agent to move toward the statue, and reduce hp when hit by bullet or missile.
+*/
 
 using namespace enviro;
 
