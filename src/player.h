@@ -30,7 +30,7 @@ class playerController : public Process, public AgentInterface {
                         firing = true;
                     }
                     else if (current_weapon == MISSILE) {
-                        Agent& missile = add_agent("Missile", x() + 17*cos(angle()), y() + 17*sin(angle()), angle(), MISSILE);    
+                        Agent& missile = add_agent("Missile", x() + 17*cos(angle()), y() + 17*sin(angle()), angle(), MISSILE);   
                         missile.apply_force(70,0);
                         firing = true;
                     }

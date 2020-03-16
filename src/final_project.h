@@ -27,7 +27,7 @@ class final_projectController : public Process, public AgentInterface {
         });
         notice_collisions_with("Fragment", [&](Event &e) {
             remove_agent(e.value()["id"]);
-            monster_lifes -= 0.5;
+            monster_lifes -= 0.2;
         });
 
     }
@@ -41,7 +41,7 @@ class final_projectController : public Process, public AgentInterface {
         }
     }
     void stop() {} 
-    double monster_lifes = 50;
+    double monster_lifes = 20;
     bool game_start = false;
 };
 
