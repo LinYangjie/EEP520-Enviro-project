@@ -15,8 +15,16 @@ esm start
 
 ```
 This will start a bash prompt from which you can work my project and run the enviro server.
-The command `esm start` uses the <u>e</u>nviro <u>s</u>etup <u>m</u>anager to start a web server from which your browser can access the ENVRIO client. 
+The command `esm start` uses the <u>e</u>nviro <u>s</u>etup <u>m</u>anager to start a web server from which your browser can access the ENVRIO client.
 
+Last, do
+```bash
+enviro
+```
+
+Then navigate to `http://localhost`, the project starts.
+You can press Ctrl-C to stop the enviro server.
+ 
 Project Goal
 ===
 The project goal is to guard the UW Statue prevent it from attacking by other agents. 
