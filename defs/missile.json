@@ -1,0 +1,20 @@
+{
+  "name": "Missile",
+  "type": "dynamic",
+  "description": "Replace this string with a description",
+  "shape": [
+      { "x": -10, "y": 3 },
+      { "x": 10, "y": 3 },
+      { "x": 20, "y":0 },
+      { "x": 10, "y": -3 },
+      { "x": -10, "y": -3 }
+  ],
+  "friction": {
+    "collision": 5,
+    "linear": 0,
+    "rotational": 60
+  },
+  "sensors": [],
+  "mass": 0.1,    
+  "controller": "lib/missile.so"
+}

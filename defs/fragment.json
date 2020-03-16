@@ -1,0 +1,16 @@
+  
+{
+  "name": "Fragment",
+  "type": "dynamic",
+  "description": "Replace this string with a description",
+  "shape": "omni",
+  "radius": 5,
+  "friction": {
+    "collision": 5,
+    "linear": 40,
+    "rotational": 600
+  },
+  "sensors": [],
+  "mass": 0.05,    
+  "controller": "lib/fragment.so"
+}

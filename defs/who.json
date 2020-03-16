@@ -1,0 +1,25 @@
+{
+    "name": "WHO",
+    "type": "dynamic",
+    "description": "Replace this string with a description",
+    "shape": [
+        { "x": -20, "y": 20 },
+        { "x": 20, "y": 20 },
+        { "x": 20, "y": -20 },
+        { "x": -20, "y": -20 }
+    ],
+    "friction": {
+      "collision": 5,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [
+      { 
+          "type": "range",
+          "location": { "x": 16, "y": 0 },
+          "direction": 0
+      }
+    ],
+    "mass": 1000,    
+    "controller": "lib/who.so"
+}
