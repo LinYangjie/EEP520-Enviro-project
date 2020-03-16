@@ -21,9 +21,7 @@ Last, do
 ```bash
 enviro
 ```
-
-Then navigate to `http://localhost`, the project starts.
-You can press Ctrl-C to stop the enviro server.
+Then navigate to `http://localhost`, you should see the project works.You can press Ctrl-C to stop the enviro server.
  
 Project Goal
 ===
