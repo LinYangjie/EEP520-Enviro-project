@@ -18,7 +18,7 @@ Press `1` to select "Bullet", Press `2` to select "Missile". Using `A`,`S`,`W`,`
 
 Agents introduction
 ===
-- ***player :*** the agent you will be control to shoot down other agents.
+- ***player :*** the agent you will be controlling to shoot down other agents.
 - ***virus :*** a circle-like agent with lowest hp which is moving toward statue.  
 - ***assignemt :*** a boat-like agent with medium hp which is moving toward statue. 
 - ***final project :*** the biggest and slowest circle-like agent with highest hp which is moving toward statue.
