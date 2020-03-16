@@ -23,7 +23,7 @@ Agents introduction
 - ***assignemt :*** a boat-like agent with medium hp which is moving toward statue. 
 - ***final project :*** the biggest and slowest circle-like agent with highest hp which is moving toward statue.
 - ***who :*** the agent with sensor trigger event.
-- ***government :*** the agent will guard once the event been trigger.
+- ***government :*** the agent will guard once the event been triggered.
 - ***statue :*** the agent you should protect.
 
 Procedures
