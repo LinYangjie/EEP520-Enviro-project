@@ -19,21 +19,20 @@ class final_projectController : public Process, public AgentInterface {
             game_start = true;
         });
 
-        label("This is final project please turn in before 3/18/2020", -150, -30);
-        
         notice_collisions_with("Bullet", [&](Event &e) {
             remove_agent(e.value()["id"]);
-            monster_lifes -= 1;
+            monster_lifes -= 2;
         });
         notice_collisions_with("Fragment", [&](Event &e) {
             remove_agent(e.value()["id"]);
-            monster_lifes -= 0.2;
+            monster_lifes -= 1;
         });
 
     }
     void start() {}
     void update() {
-        if (monster_lifes < 0) {
+        label("Final Project due is 3/18/2020, Days left: "+std::to_string(monster_lifes), -150, 0);
+        if (monster_lifes < 1) {
             remove_agent(id());
         }
         if (game_start) {
@@ -41,7 +40,7 @@ class final_projectController : public Process, public AgentInterface {
         }
     }
     void stop() {} 
-    double monster_lifes = 20;
+    int monster_lifes = 20;
     bool game_start = false;
 };
 

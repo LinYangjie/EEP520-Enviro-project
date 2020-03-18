@@ -12,7 +12,7 @@ playerController is to control the agent by keyboard including moving agent and 
 class playerController : public Process, public AgentInterface {
 
     public:
-    playerController() : Process(), AgentInterface(), f(0), tau(0), firing(false) {}
+    playerController() : Process(), AgentInterface(), v(0), omega(0), firing(false) {}
 
     void init() {
         label("PLAYER", -20, -30);
@@ -42,16 +42,16 @@ class playerController : public Process, public AgentInterface {
                         current_weapon = MISSILE;     
                 }
                 else if ( k == "w" ) {
-                    f = magnitude;              
+                    v = v_f;              
                 } 
                 else if ( k == "s" ) {
-                    f = -magnitude;  
+                    v = -v_f;  
                 } 
                 else if ( k == "a" ) {
-                    tau = -magnitude;
+                    omega = -w_f;
                 } 
                 else if ( k == "d" ) {
-                    tau = magnitude;
+                    omega = w_f;
                 }
             }    
         });        
@@ -62,13 +62,10 @@ class playerController : public Process, public AgentInterface {
                     firing = false;
                 } 
                 else if ( k == "w" || k == "s" ) {
-                    f = 0;               
+                    v = 0;               
                 } 
-                else if ( k == "a" ) {
-                    tau = 0;
-                } 
-                else if ( k == "d" ) {
-                    tau = 0;
+                else if ( k == "a" || k == "d" ) {
+                    omega = 0;
                 }
             }   
         });
@@ -84,11 +81,12 @@ class playerController : public Process, public AgentInterface {
     }
     void start() {}
     void update() {
-        apply_force(f,tau);
+        track_velocity(v,omega,10,400);
     }
     void stop() {}
-    double f, tau;
-    double const magnitude = 200;
+    double v,omega;
+    double const v_f = 30;
+    double const w_f = 0.8;
     bool firing;
     bool game_start = false;
     const json BULLET = { 

@@ -15,22 +15,23 @@ class assignmentController : public Process, public AgentInterface {
     assignmentController() : Process(), AgentInterface() {}
 
     void init() {
+
         watch("button_click",[&](Event &e) {
             game_start = true;
-        });
-        label("Assignment", -30, 20);
+        });  
         notice_collisions_with("Bullet", [&](Event &e) {
             remove_agent(e.value()["id"]);
-            monster_lifes -= 1;
+            monster_lifes -= 2;
         });
         notice_collisions_with("Fragment", [&](Event &e) {
             remove_agent(e.value()["id"]);
-            monster_lifes -= 0.2;
+            monster_lifes -= 1;
         });
     }
     void start() {}
     void update() {
-        if (monster_lifes < 0) {
+        label("Assignement, Days left: " + std::to_string(monster_lifes), -50, 20);
+        if (monster_lifes < 1) {
             remove_agent(id());
         }
         if (game_start) {
@@ -39,7 +40,7 @@ class assignmentController : public Process, public AgentInterface {
     }
     void stop() {}
 
-    double monster_lifes = 10;
+    int monster_lifes = 10;
     double delay;
     bool game_start = false;
 
