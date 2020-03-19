@@ -36,7 +36,7 @@ git clone https://github.com/LinYangjie/EEP520-Enviro-project.git
 
 Then, start the docker image environment, do
 ```bash
-docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.5 bash
+docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash
 esm start
 
 ```
