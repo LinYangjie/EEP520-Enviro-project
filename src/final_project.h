@@ -32,7 +32,7 @@ class final_projectController : public Process, public AgentInterface {
     void start() {}
     void update() {
         label("Final Project due is 3/18/2020, Days left: "+std::to_string(monster_lifes), -150, 0);
-        if (monster_lifes < 1) {
+        if (monster_lifes < 1) {  
             remove_agent(id());
         }
         if (game_start) {

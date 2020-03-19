@@ -18,7 +18,7 @@ class missleController : public Process, public AgentInterface {
     }
     void start() {}
     void update() {
-        if ( counter++ > 40 ) {
+        if ( counter++ > 20 ) {
             for ( double theta = 0; theta < 2*M_PI; theta += M_PI/8 ) {
                 Agent& v = add_agent("Fragment", x() + 10*cos(theta), y() + 10*sin(theta), 0, FRAGMENT);
             }

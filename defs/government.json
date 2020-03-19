@@ -1,7 +1,7 @@
 {
     "name": "Government",
     "type": "dynamic",
-    "description": "Replace this string with a description",
+    "description": "Guardian of UW statue",
     "shape": [
         { "x": -10, "y": 10 },
         { "x": 10, "y": 10 },

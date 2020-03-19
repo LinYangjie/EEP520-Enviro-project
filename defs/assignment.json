@@ -1,7 +1,7 @@
 {
     "name": "Assignment",
     "type": "dynamic",
-    "description": "Replace this string with a description",
+    "description": "A boat-like agent",
     "shape": [
         { "x": 40, "y": 0},
         { "x": 25, "y": -20 },

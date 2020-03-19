@@ -2,7 +2,7 @@
 {
   "name": "Fragment",
   "type": "dynamic",
-  "description": "Replace this string with a description",
+  "description": "missile fragments",
   "shape": "omni",
   "radius": 5,
   "friction": {

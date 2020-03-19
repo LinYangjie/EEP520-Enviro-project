@@ -1,7 +1,7 @@
 {
   "name": "Final_Project",
   "type": "dynamic",
-  "description": "Replace this string with a description",
+  "description": "A omni agent",
   "shape": "omni",
   "radius": 100,
   "friction": {
