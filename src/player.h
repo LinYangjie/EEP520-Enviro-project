@@ -96,7 +96,7 @@ class playerController : public Process, public AgentInterface {
                    {"stroke-opacity", "0.25"}
                 };
     const json MISSILE = {
-                   {"fill", "gray"}, 
+                   {"fill", "red"}, 
                    {"stroke", "#888"}, 
                    {"stroke-width", "5px"},
                    {"stroke-opacity", "0.35"}
