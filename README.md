@@ -1,4 +1,4 @@
-EEP520-Enviro-project: Protect UW Statue 
+EEP520-Enviro-project: MiniCar Game
 ===
 
 Project Goal
