@@ -1,5 +1,7 @@
 EEP520-Enviro-project: MiniCar Game
 ===
+![enviro](https://user-images.githubusercontent.com/50006786/93945803-78f49e00-fcec-11ea-9209-fe0d02570b8c.png)
+
 
 Project Goal
 ===
